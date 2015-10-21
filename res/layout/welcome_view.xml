@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_wel"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/iv_toMain"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_above="@+id/tv_msg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+        android:src="@drawable/iv_load" />
+
+	<ImageView
+	    android:id="@+id/iv_toMain2"
+	    android:layout_width="52dp"
+	    android:layout_height="52dp"
+	    android:layout_alignLeft="@+id/iv_toMain3"
+	    android:layout_alignParentBottom="true"
+	    android:layout_marginBottom="119dp"
+	    android:src="@drawable/iv_load" />
+
+	<TextView
+	    android:id="@+id/tv_msg"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/iv_toMain2"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginBottom="48dp"
+	    android:text="@string/wel_msg"
+	    android:textColor="@color/lightBlue"
+	    android:textSize="17sp" />
+
+	<ImageView
+	    android:id="@+id/iv_toMain3"
+	    android:layout_width="30dp"
+	    android:layout_height="97dp"
+	    android:layout_above="@+id/iv_toMain"
+	    android:layout_alignRight="@+id/tv_msg"
+	    android:layout_marginBottom="38dp"
+	    android:src="@drawable/iv_load" />
+
+</RelativeLayout>
